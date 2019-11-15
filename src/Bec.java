@@ -1,4 +1,6 @@
 public class Bec {
-  poublic static void msin() {}
+  public static void main(String[] args) {
+
+  }
 
 }
