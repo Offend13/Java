@@ -21,7 +21,7 @@ public abstract class Hero {
 
     protected int mana;
 
-    public abstract void firePrimary();
-    public abstract void fireSecondary();
-    public abstract void receiveHit();
+    public abstract void firePrimary(Hero hero);
+    public abstract void fireSecondary(Hero hero);
+    public abstract void receiveHit(int power);
 }

@@ -1,3 +1,5 @@
+package Student;
+
 public class Program {
     public static void main(String[] args) {
         Person alex = new Person("Alexandru", 20, 175, 10);

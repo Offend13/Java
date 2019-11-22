@@ -1,3 +1,5 @@
+package Student;
+
 public class Student extends Person {
     private String classGroup;
     public Student(String name, int age, int height, int stamina, String classGroup) {
@@ -11,7 +13,7 @@ public class Student extends Person {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "Student.Student{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", height=" + height +
